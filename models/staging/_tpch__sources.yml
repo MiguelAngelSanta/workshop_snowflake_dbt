@@ -2,10 +2,10 @@ version: 2
 
 sources:
   - name: tpch
+    database: DEV_BRONZE_DB
+    schema: TPCH
     tables:
       - name: customer
-        database: DEV_BRONZE_DB
-        schema: TPCH
         columns:
           - name: c_custkey
             data_type: number
